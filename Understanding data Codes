@@ -50,3 +50,13 @@ WHERE language IN ('English', 'French')
 GROUP BY language
 ORDER BY language;
 
+
+Conclusion 
+After a careful investigation, I was able to get some insights from the database.
+
+1. There are 4844 unique movies in the database.
+2. There are 1076 rows with null values. I would recommend replacing the values with a default value like the mean of the column. There are also blanks present in some columns. I would also recommend replacing the blanks with a default value specific to the column.
+3. There are 13 different certifications or ratings present in the database: 12 actual ratings and a blank rating.
+4. The top five countries in terms of number of movies produced are: USA, UK, France, Canada and Germany in descending order.
+5. English movies have a higher movie duration than French movies on average
+6. Movies rated G,PG,PG-13 tend to generate more revenue than movies rated R,X,NC-17 on average (excluding rows with null values).
