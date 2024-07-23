@@ -21,7 +21,7 @@ This file describes the schema for the movie database table.
 | budget             | The available budget the production had for producing the movie, in USD.                        |
 
 
-## 💪 Challenge II
+## 💪 Challenge 
 Help your team leader understand the data that's available in the cinema. films dataset. Include:
 
 1. How many movies are present in the database?
